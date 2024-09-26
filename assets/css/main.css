@@ -1,0 +1,33 @@
+:root{
+    --color-c1: #ddeddb;
+    --color-c2: #52734D;
+}
+
+.bg-color-c1{
+    background-color: var(--color-c1);
+}
+.bg-color-c2{
+    background-color: var(--color-c2);
+}
+.text-color-c1{
+    color: var(--color-c1);
+}
+.text-color-c2{
+    color: var(--color-c2);
+}
+
+
+/*support google chrome*/
+#search::-webkit-input-placeholder{
+    color: #aad6a3;
+}
+
+/*support mozilla*/
+#search::-moz-input-placeholder{
+    color: #aad6a3;
+}
+
+/*support internet explorer*/
+#search::-ms-input-placeholder{
+    color: #aad6a3;
+}
