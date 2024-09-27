@@ -17,17 +17,3 @@
 }
 
 
-/*support google chrome*/
-#search::-webkit-input-placeholder{
-    color: #aad6a3;
-}
-
-/*support mozilla*/
-#search::-moz-input-placeholder{
-    color: #aad6a3;
-}
-
-/*support internet explorer*/
-#search::-ms-input-placeholder{
-    color: #aad6a3;
-}
