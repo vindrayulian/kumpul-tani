@@ -31,3 +31,18 @@
 #search::-ms-input-placeholder{
     color: #aad6a3;
 }
+
+@keyframes pop-up {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    30%, 70% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.comment-pop {
+    animation: pop-up 4s infinite ease-in-out; /* Durasi 4 detik untuk animasi */
+}
